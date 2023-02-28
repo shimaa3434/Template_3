@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>template 3</title>
+    <link rel="shortcut icon" href="img/logo_2.png" type="image/x-icon">
+  </head>
+  <body>
+      <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-info bg-info bg-gradient shadow-lg sticky-top">
+          <div class="container-fluid">
+            <a class="navbar-brand ms-3" href="#">
+              <img src="img/logo_1.png" alt="logo" class="img-fluid" width="100" height="100">
+            </a>
+            <button class="navbar-toggler border-white border-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="fa fa-bars text-white"></span>
+            </button>
+            <div class="collapse navbar-collapse bg-sm-info p-4 w-100" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active text-white text-capitalize" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white text-capitalize" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white text-capitalize" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Courses
+                  </a>
+                  <ul class="dropdown-menu bg-dark " aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item text-white text-capitalize " href="#">python</a></li>
+                    <li><a class="dropdown-item text-white text-capitalize" href="#">jave</a></li>
+                    <li><hr class="dropdown-divider border-white text-capitalize"></li>
+                    <li><a class="dropdown-item text-white text-capitalize" href="#">html</a></li>
+                    <li><a class="dropdown-item text-white" href="#">css</a></li>
+                    <li><a class="dropdown-item text-white text-capitalize" href="#">javescript</a></li>
+                    <li><a class="dropdown-item text-white text-capitalize" href="#">bootstrap</a></li>
+                    <li><a class="dropdown-item text-white text-capitalize" href="#">json</a></li>
+                  </ul> <!--/dropdown-->
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white text-capitalize" href="#">about</a>
+                </li>
+              </ul><!--/navbar-menu-->
+              <form class="d-flex me-2 ">
+                <input class="form-control me-2 border-dark" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-dark bg-dark rounded-3 text-uppercase" type="submit">search</button>
+              </form>
+              <button class="btn btn-dark bg-dark rounded-3 text-uppercase my-2 my-md-0" type="submit">login</button>
+            </div> <!--/navbar collapse-->
+          </div> <!--/container-fluid-->
+      </nav> <!--/nav-->
+      <!-- /navbar -->
+
+        <!-- sliders -->
+      <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div> <!--/carousel indicators-->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/car_3.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption  d-block p-3 mx-auto w-50 bg-dark bg-gradient">
+                <h5 class="fs-1 text-white text-capitalize fw-bolder">html</h5>
+                <p class="lh-md-base fs-md-5 text-center p-2 fs-sm-6 lh-sm-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste dignissimos molestias et architecto quis sed.</p>
+                <a href="#" class="btn btn-info text-capitalize fw-bolder my-3 text-white rounded-pill px-3 py-2">view this course</a>
+              </div><!--/carousel caption-->
+            </div> <!--/carousel item-->
+            <div class="carousel-item">
+              <img src="img/car_2.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption  d-block p-3 mx-auto w-50 bg-dark bg-gradient">
+                <h5 class="fs-1 text-white text-capitalize fw-bolder">css</h5>
+                <p class="lh-md-base fs-md-5 text-center p-2 fs-sm-6 lh-sm-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste dignissimos molestias et architecto quis sed.</p>
+                <a href="#" class="btn btn-info text-capitalize fw-bolder my-3 text-white rounded-pill  px-3 py-2">view this course</a>
+              </div><!--/carousel caption-->
+            </div><!--/carousel item-->
+            <div class="carousel-item">
+              <img src="img/car_1.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-block p-3 mx-auto w-50 bg-dark bg-gradient">
+                <h5 class="fs-1 text-white text-capitalize fw-bolder">JavaScript</h5>
+                <p class="lh-md-base fs-md-5 text-center p-2 fs-sm-6 lh-sm-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste dignissimos molestias et architecto quis sed.</p>
+                <a href="#" class="btn btn-info text-capitalize fw-bolder my-3 text-white rounded-pill  px-3 py-2">view this course</a>
+              </div><!--/carousel caption-->
+            </div><!--/carousel item-->
+            <div class="carousel-item">
+              <img src="img/car_4.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-block p-3 mx-auto w-50 bg-dark bg-gradient">
+                <h5 class="fs-1 text-white text-capitalize fw-bolder">json</h5>
+                <p class="lh-md-base fs-md-5 text-center p-2 fs-sm-6 lh-sm-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste dignissimos molestias et architecto quis sed.</p>
+                <a href="#" class="btn btn-info text-capitalize fw-bolder my-3 text-white rounded-pill  px-3 py-2">view this course</a>
+              </div><!--/carousel caption-->
+            </div><!--/carousel item-->
+          </div> <!--/carousel inner-->
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+      </div> <!--/carousol-->
+      <!--/sliders-->
+    <main class="">
+
+      <div class="jumbotron p-5 bg-dark bg-gradient text-white">
+        <h1 class="fs-3">Welcome</h1>
+        <p>programming without language and without code.</p>
+        <a href="#" class="btn btn-primary">learn more</a>
+      </div><!--/jumbotron-->
+
+      <!-- accordion -->
+      <section class="sec-accordion">
+        <div class="container">
+          <div class="row mx-auto text-center w-50">
+            <div class="col-12  my-3">
+              <div class="title  py-3 bg-info rounded-3 border border-3 border-dark border-top-0 border-start-0 text-white shadow-lg">
+                <h2>Programming language</h2>
+              </div>
+            </div> <!--/ row-->
+          </div> <!--/ row-->
+          <div class="row">
+            <div class="col-12">
+              <div class="accordion " id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                     python Programming language
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body bg-dark text-white-50">
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam officiis laudantium sit?
+                         Quibusdam dolorem error explicabo inventore dolor optio, natus facilis 
+                        nam doloremque iure ab commodi expedita, blanditiis dolorum corrupti.</p>
+                    </div><!--/ accordion body-->
+                  </div> 
+                </div><!--/ accordion item-->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                     jave Programming language
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body bg-dark text-white-50">
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam officiis laudantium sit?
+                        Quibusdam dolorem error explicabo inventore dolor optio, natus facilis 
+                       nam doloremque iure ab commodi expedita, blanditiis dolorum corrupti.</p>
+                    </div> <!--/ accordion body-->
+                  </div>
+                </div><!--/ accordion item-->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      javescript Programming language
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body bg-dark text-white-50">
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam officiis laudantium sit?
+                        Quibusdam dolorem error explicabo inventore dolor optio, natus facilis 
+                       nam doloremque iure ab commodi expedita, blanditiis dolorum corrupti.</p>
+                    </div> <!--/ accordion body-->
+                  </div>
+                </div> <!--/ accordion item-->
+              </div> <!--/ accordion-->
+            </div> <!--/ col-->
+          </div><!--/ row-->
+        </div> <!--/ container-->
+      </section>
+      <!-- accordion -->
+      <section class="codeing bg-dark bg-gradient mt-4">
+        <div class="container-fluid">
+            <div class="row ">
+              <div class="col-12  my-3 text-center w-50 mx-auto">
+                <div class="title  py-3 bg-info rounded-3 border border-3 border-light border-top-0 border-start-0 text-white shadow-lg">
+                  <h2 class="fs-3 fs-sm-5 text-capitalize fw-bolder">Python is very easy</h2>
+                </div>
+              </div> <!--/ col title-->
+              <div class="col-12 mb-5">
+                <div class="card bg-dark text-white">
+                  <div class="card-body">
+                    <h2>try the code below from <a href="#" class="text-decoration-none text-info text-uppercase">python</a></h2>
+                    <button type="button" class="btn btn-lg btn-outline-light text-uppercase ms-5 mt-3" data-bs-toggle="popover" data-bs-placement="right"  data-bs-content="copy to clipboared">
+                      copy
+                    </button>
+                    <p class="ps-5 my-4 fs-3"><code class="text-info">name = input('enter your name: ')</code><br><code class="text-info">print("Hello" + name)</code> </p>
+                  </div> <!--/ card body-->
+                </div> <!--/ card-->
+              </div> <!--/ col text-->
+            </div> <!--/ row-->
+            <!-- ======= -->
+            <div class="row ">
+              <div class="col-12  my-3 text-center w-50 mx-auto">
+                <div class="title  py-3 bg-info rounded-3 border border-3 border-light border-top-0 border-start-0 text-white shadow-lg">
+                  <h2 class="fs-3 fs-sm-5 text-capitalize fw-bolder">Java is very easy</h2>
+                </div>
+              </div> <!--/ col title-->
+              <div class="col-12 mb-5">
+                <div class="card bg-dark text-white">
+                  <div class="card-body">
+                    <h2>try the code below from <a href="#" class="text-decoration-none text-info text-uppercase">jave</a></h2>
+                    <button type="button" class="btn btn-lg btn-outline-light text-uppercase ms-5 mt-3" data-bs-toggle="popover" data-bs-placement="right"  data-bs-content="copy to clipboared">
+                      copy
+                    </button>
+                    <p class="ps-5 my-4 fs-3"><code class="text-info"> System.out.println("Hello World!"); </code> </p>
+                  </div> <!--/ card body-->
+                </div> <!--/ card-->
+              </div> <!--/ col text-->
+            </div><!--/ row-->
+            <!-- ============ -->
+            <div class="row ">
+              <div class="col-12  my-3 text-center w-50 mx-auto">
+                <div class="title  py-3 bg-info rounded-3 border border-3 border-light border-top-0 border-start-0 text-white shadow-lg">
+                  <h2 class="fs-3 fs-sm-5 text-capitalize fw-bolder">javescript is very easy</h2>
+                </div>
+              </div> <!--/ col title-->
+              <div class="col-12 mb-5">
+                <div class="card bg-dark text-white">
+                  <div class="card-body">
+                    <h2>try the code below from <a href="#" class="text-decoration-none text-info text-uppercase">javescript</a></h2>
+                    <button type="button" class="btn btn-lg btn-outline-light text-uppercase ms-5 mt-3" data-bs-toggle="popover" data-bs-placement="right"  data-bs-content="copy to clipboared">
+                      copy
+                    </button>
+                    <p class="ps-5 my-4 fs-3"><code class="text-info"> console.log("Welcome to Programiz!"); </code> </p>
+                  </div> <!--/ card body-->
+                </div> <!--/ card-->
+              </div> <!--/ col text-->
+            </div><!--/ row-->
+        </div> <!--/ container fluid-->
+      </section> <!--/ codeing-->
+      <!-- ===== -->
+      <section class="empty"></section>
+      <!-- ========= -->
+
+      <section class="basic">
+        <div class="container">
+          <div class="row mx-auto text-center w-25">
+            <div class="col my-3">
+              <div class="title  py-3 bg-info rounded-3 border border-3 border-dark border-top-0 border-start-0 text-white shadow-lg">
+                <h2>Good basic</h2>
+              </div>
+            </div> <!--/ colo title-->
+          </div> <!--/ row-->
+          <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-4 col-sm-6 my-3">
+              <div class="card border-0 shadow-lg bg-dark text-white">
+                <img src="img/lang-1.jpg" class="card-img-top" height="200" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-uppercase fw-bold fs-4 ">html</h5>
+                  <p class="card-text">html from zero to hero.</p>
+                  <a href="#" class="btn btn-outline-info text-white">download the book</a>
+                </div> <!--/ card body-->
+              </div> <!--/ card-->
+            </div> <!--/ col-->
+            <!-- ============ -->
+            <div class="col-lg-3 col-md-4 col-sm-6 my-3">
+              <div class="card border-0 shadow-lg bg-dark text-white">
+                <img src="img/lang-2.png" class="card-img-top" height="200" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-uppercase fw-bold fs-4 ">html</h5>
+                  <p class="card-text">html from zero to hero.</p>
+                  <a href="#" class="btn btn-outline-info text-white">download the book</a>
+                </div> <!--/ card body-->
+              </div> <!--/ card-->
+            </div> <!--/ col-->
+            <!-- ============ -->
+            <div class="col-lg-3 col-md-4 col-sm-6 my-3">
+              <div class="card border-0 shadow-lg bg-dark text-white">
+                <img src="img/lang-3.png" class="card-img-top" height="200" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-uppercase fw-bold fs-4 ">html</h5>
+                  <p class="card-text">html from zero to hero.</p>
+                  <a href="#" class="btn btn-outline-info text-white">download the book</a>
+                </div> <!--/ card body-->
+              </div> <!--/ card-->
+            </div> <!--/ col-->
+            <!-- ============ -->
+            <div class="col-lg-3 col-md-4 col-sm-6 my-3">
+              <div class="card border-0 shadow-lg bg-dark text-white">
+                <img src="img/lang-4.png" class="card-img-top" height="200" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-uppercase fw-bold fs-4 ">html</h5>
+                  <p class="card-text">html from zero to hero.</p>
+                  <a href="#" class="btn btn-outline-info text-white">download the book</a>
+                </div> <!--/ card body-->
+              </div> <!--/ card-->
+            </div> <!--/ col-->
+            <!-- ============ -->
+            <div class="col-lg-3 col-md-4 col-sm-6  my-3">
+              <div class="card border-0 shadow-lg bg-dark text-white">
+                <img src="img/lang-5.jpg" class="card-img-top" height="200" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-uppercase fw-bold fs-4 ">html</h5>
+                  <p class="card-text">html from zero to hero.</p>
+                  <a href="#" class="btn btn-outline-info text-white">download the book</a>
+                </div> <!--/ card body-->
+              </div> <!--/ card-->
+            </div> <!--/ col-->
+            <!-- ============ -->
+            <div class="col-lg-3 col-md-4 col-sm-6 my-3">
+              <div class="card border-0 shadow-lg bg-dark text-white">
+                <img src="img/lang-6.jpg" class="card-img-top" height="200" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-uppercase fw-bold fs-4 ">html</h5>
+                  <p class="card-text">html from zero to hero.</p>
+                  <a href="#" class="btn btn-outline-info text-white">download the book</a>
+                </div> <!--/ card body-->
+              </div> <!--/ card-->
+            </div> <!--/ col-->
+            <!-- ============ -->
+            <div class="col-lg-3 col-md-4 col-sm-6  my-3">
+              <div class="card border-0 shadow-lg bg-dark text-white">
+                <img src="img/lang-7.jpg" class="card-img-top" height="200" alt="...">
+                <div class="card-body ">
+                  <h5 class="card-title text-uppercase fw-bold fs-4 ">json</h5>
+                  <p class="card-text">json from zero to hero.</p>
+                  <a href="#" class="btn btn-outline-info text-white">download the book</a>
+                </div> <!--/ card body-->
+              </div> <!--/ card-->
+            </div><!--/ col-->
+            <!-- ============ -->
+          </div> <!--/ row-->
+        </div> <!--/ container-->
+      </section>
+      <!-- ================= -->
+      <section class="empty2"></section>
+      <!-- ========= -->
+      <section class="team bg-dark">
+        <div class="container">
+          <div class="row mx-auto text-center w-50 ">
+            <div class="col my-3">
+              <div class="title  py-3 bg-info rounded-3 border border-3 border-light border-top-0 border-start-0 text-white shadow-lg">
+                <h2>Thanks For</h2>
+              </div>
+            </div> <!--/ col title-->
+          </div><!--/ row-->
+          <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-4 col-sm-6 my-3">
+              <div class="card border-0 shadow-lg ">
+                <img src="img/tame-1.jpg" class="card-img-top" height="300" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-uppercase fw-bold fs-4  text-center">جورج سيدهم</h5>
+                </div> <!--/ card body-->
+              </div> <!--/ card-->
+            </div> <!--/ col-->
+            <!-- ============ -->
+            <div class="col-lg-4 col-md-4 col-sm-6 my-3">
+              <div class="card border-0 shadow-lg ">
+                <img src="img/tame-2.jpg" class="card-img-top" height="300" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-uppercase fw-bold fs-4 text-center">إسماعيل ياسين</h5>
+                </div> <!--/ card body-->
+              </div> <!--/ card-->
+            </div> <!--/ col-->
+            <!-- ============ -->
+            <div class="col-lg-4 col-md-4 col-sm-6 my-3">
+              <div class="card border-0 shadow-lg ">
+                <img src="img/tame-3.jpg" class="card-img-top" height="300" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-uppercase fw-bold fs-4  text-center">عبد الفتاح القصري</h5>
+                </div> <!--/ card body-->
+              </div> <!--/ card-->
+            </div> <!--/ col-->
+            <!-- ============ -->
+          </div> <!--/ row-->
+        </div> <!--/ container-->
+      </section>
+      <!-- =================== -->
+      <section class="joinUs py-4">
+        <div class="container">
+          <div class="row mx-auto text-center w-25">
+            <div class="col my-3">
+              <div class="title  py-3 bg-info rounded-3 border border-3 border-dark border-top-0 border-start-0 text-white shadow-lg">
+                <h2>Join Us</h2>
+              </div>
+            </div> <!--/ col title-->
+          </div><!--/ row-->
+          <div class="row justify-content-center">
+            <div class="col-lg-3 col-sm-6 my-3">
+              <div class="card border-0 shadow-lg bg-dark text-white">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Subscribe Now </h5>
+                  <div class="icon my-3">
+                    <i class="fab fa-youtube bg-light rounded rounded-circle text-danger p-3"></i>
+                  </div> <!--/ icon-->
+                  <a href="#" class="text-decoration-none text-info">go to link</a>
+                </div> <!--/ card body-->
+              </div> <!--/ card-->
+            </div> <!--/ col-->
+            <!-- ============ -->
+            <div class="col-lg-3 col-sm-6 my-3">
+              <div class="card border-0 shadow-lg bg-dark text-white">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Follow </h5>
+                  <div class="icon my-3">
+                    <i class="fab fa-instagram bg-light rounded rounded-circle text-dark p-3"></i>
+                  </div> <!--/ icon-->
+                  <a href="#" class="text-decoration-none text-info">go to link</a>
+                </div> <!--/ card body-->
+              </div> <!--/ card-->
+            </div><!--/ col-->
+            <!-- ============ -->
+            <div class="col-lg-3 col-sm-6 my-3">
+              <div class="card border-0 shadow-lg bg-dark text-white">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Like the page  </h5>
+                  <div class="icon my-3">
+                    <i class="fab fa-facebook-f bg-light rounded rounded-circle text-primary p-3"></i>
+                  </div> <!--/ icon-->
+                  <a href="#" class="text-decoration-none text-info">go to link</a>
+                </div> <!--/ card body-->
+              </div> <!--/ card-->
+            </div> <!--/ col-->
+            <!-- ============ -->
+            <div class="col-lg-3 col-sm-6 my-3">
+              <div class="card border-0 shadow-lg bg-dark text-white">
+                <div class="card-body text-center">
+                  <h5 class="card-title ">watch vedios</h5>
+                  <div class="icon my-3">
+                    <i class="fab fa-youtube bg-light rounded rounded-circle text-danger p-3"></i>
+                  </div> <!--/ icon-->
+                  <a href="#" class="text-decoration-none text-info">go to link</a>
+                </div> <!--/ card body-->
+              </div><!--/ card-->
+            </div> <!--/ col-->
+            <!-- ============ -->
+          </div> <!--/ row-->
+        </div> <!--/ container-->
+      </section>
+    </main>
+    <footer class="bg-dark text-center">
+      <div class="container-fluid">
+        <div class="row py-3">
+          <div class="col-md-4 my-3">
+            <div class="logo border border-end-0 border-start-0">
+              <img src="img/logo_1.png" class="img-fluid w-25" alt="">
+            </div>
+            <ul class="my-3">
+              <li class="pt-1"><a href="#" class="text-white text-decoration-none">Tel : 000-000-000</a></li>
+              <li class="pt-1"><a href="#" class="text-white text-decoration-none">Address : EGYPT</a></li>
+              <li class="pt-1"><a href="#" class="text-white text-decoration-none">Fax : 000-000-000</a></li>
+            </ul>
+          </div><!--/ col-->
+          <!-- =========== -->
+          <div class="col-md-4 my-3">
+            <div class=" border border-end-0 border-start-0">
+              <h2 class="py-3 fs-3 text-white">Important links</h2>
+            </div>
+            <ul class="my-3">
+              <li class="pt-1"><a href="#" class="text-white text-decoration-none">Tel : 000-000-000</a></li>
+              <li class="pt-1"><a href="#" class="text-white text-decoration-none">Address : EGYPT</a></li>
+              <li class="pt-1"><a href="#" class="text-white text-decoration-none">Fax : 000-000-000</a></li>
+            </ul>
+          </div> <!--/ col-->
+          <!-- =========== -->
+          <div class="col-md-4 my-3">
+            <div class=" border border-end-0 border-start-0">
+              <h2 class="py-3 fs-3 text-white" >Vision</h2>
+            </div>
+           <p class="lead text-white-50 fs-6 text-start my-3 pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis eos tempora
+             vitae consectetur expedita, a repudiandae harum illo nisi dicta culpa eveniet, deleniti minus</p>
+          </div> <!--/ col-->
+        </div><!--/ row-->
+        <div class="row py-3 border-0 border-top">
+          <p class="text-white-50">Copyright &copy; 2023 template3, Good Company. All rights</p>
+        </div> <!--/ row-->
+      </div> <!--/ container fluid-->
+    </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <script>
+      var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+      var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl)
+      })
+      </script>
+  </body>
+</html>
